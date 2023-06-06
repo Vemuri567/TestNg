@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Suite">
+    <test verbose="2" preserve-order="true" name="D:/VFC project/Feb2023Batch">
+
+        <groups>
+            <run>
+                <include name="Smoke">
+                </include>
+            </run>
+        </groups>
+        <packages>
+            <package name="Utility">
+
+            </package>
+        </packages>
+        <!--<classes>
+            <class name="Utility.Assertions">
+           &lt;!&ndash; <methods>
+                <include name="equalVaidation"/>
+                <include name="containsValidations"/>
+                <include name="containsFalseValidations"/>
+                <include name="containsFalseValidationsWithMessage"/>
+            </methods>&ndash;&gt;
+        </class>
+            <class name="TC01">
+                &lt;!&ndash;<methods>
+                    <include name="login"/>
+                    <include name="homePage"/>
+                    <include name="validateResults"/>
+                    <include name="validation"/>
+                    <include name="tc01"/>
+                </methods>&ndash;&gt;
+            </class>
+        </classes>-->
+    </test>
+</suite>

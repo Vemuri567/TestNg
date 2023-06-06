@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Suite]">
+  <test name="D:/VFC project/Feb2023Batch(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Utility.Assertions">
+        <methods>
+          <include name="equalVaidation"/>
+        </methods>
+      </class> <!-- Utility.Assertions -->
+    </classes>
+  </test> <!-- D:/VFC project/Feb2023Batch(failed) -->
+</suite> <!-- Failed suite [Testing Suite] -->
